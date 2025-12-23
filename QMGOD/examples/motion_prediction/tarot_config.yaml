@@ -1,0 +1,65 @@
+# ===== 数据输入 =====
+x_key: X
+y_key: y
+feat_types_key:
+max_cat_card: 50
+int_is_cat: true
+
+# ===== 输出目录 =====
+output_dir: "G:\\OutlierDecetion\\QMGOD\\examples\\result"
+
+# ===== Step1：属性相似度 =====
+delta_num: 0.3
+lambda_density: 10
+floor_rho: 0.01
+k_sigma: 15
+tau_sigma: 1.0
+q_exp: 2.0
+eta_cat:
+
+# ===== Step2：GB 多层与融合 =====
+max_layers: 6
+mcons_weight_gamma: 1
+mcons_weight_cap: 3
+js_bins: 15
+js_alpha: 1.5
+js_pow: 0.5
+
+# ===== Step3：k–p 切分 =====
+k_prop: 0.5
+tau_m_pos: 0.9
+tau_m_neg: 0.9
+
+# ===== Step4–7（原有参数保留）=====
+seed: 42
+device: "cuda:0"
+method:
+  train_batch_size: 256
+  eval_batch_size: 512
+devices: ["cuda:0"]
+load_num_workers: 0
+
+rbf_center_cap: 1000
+rbf_gamma: 0.0
+projection_dimension: 4096
+wfd_reg: 1e-1
+kfold: 10
+otm_knn_start: 3
+otm_max_rank: 2000
+min_select_ratio: 0
+otm_improve_eps: 1.0e-2
+reliability_pow_p: 1.0
+reliability_pow_k: 1.0
+ot_epsilon: 0.1
+
+# ===== Step7·SVM 可调参数 =====
+svm_kernel: linear     # rbf / linear / poly / sigmoid
+svm_C: 1.5
+svm_gamma: auto    # scale / auto / (数值)
+svm_use_mcons_weight: true  # 用 |m_cons| 作为样本权（近似 MGBOD 的不确定度权重设定）
+
+# —— S3 分支（Step3→Step7·MGBOD风格）专属可选项 —— #
+svm_kernel_s3: "rbf"     # 可改 "linear" 做对照
+svm_C_s3: 1
+svm_gamma_s3: "scale"
+svm_use_mcons_weight_s3: true   # 默认关闭，贴近“纯 MGBOD”；如需启用，改成 true

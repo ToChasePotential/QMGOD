@@ -1,0 +1,49 @@
+C_base: 1.0
+alpha_thresh: 0.75
+balance_cap_neg: 0.05
+balance_cap_pos: 0.02
+balance_min_each: 50
+balance_ratio_max: 3.0
+beta_thresh: 0.15
+consistency_thresh: 0.6
+delta_for_merge: 8
+device: cuda
+devices:
+- 0
+feat_types_key: null
+floor_rho: 0.05
+int_is_cat: true
+k_sigma: 15
+kfold: 5
+knn_k: 5
+label_map: null
+lambda_density: 0.5
+load_num_workers: 0
+max_cat_card: 50
+max_layers: 8
+method:
+  eval_batch_size: 1024
+  train_batch_size: 1024
+ot_epsilon: 0.08
+otm_kfold: 5
+otm_knn_start: 1
+otm_max_rank: 2000
+otm_tol: 1e-8
+output_dir: G:\OutlierDecetion\QMGOD\examples\result
+posneg_balance: true
+projection_dimension: 1024
+q_exp: 2.0
+rbf_center_cap: 3000
+rbf_gamma: 0.0
+reliability_pow_k: 1.0
+reliability_pow_p: 1.0
+reliability_temp: 1.5
+seed: 42
+t_proportion: 0.02
+tau_s: 0.55
+tau_s_neg: 0.6
+tau_s_pos: 0.35
+tau_sigma: 1.0
+wfd_reg: 1e-5
+x_key: X
+y_key: y

@@ -1,0 +1,27 @@
+{
+  "S3": {
+    "AUROC": 0.567781690140845,
+    "AUPRC": 0.0071271790020687575,
+    "scores_path": "G:\\OutlierDecetion\\QMGOD\\examples\\result\\final_scores__S3.npy"
+  },
+  "6A": {
+    "AUROC": 0.17658450704225354,
+    "AUPRC": 0.003016296029977974,
+    "scores_path": "G:\\OutlierDecetion\\QMGOD\\examples\\result\\final_scores__6A.npy"
+  },
+  "6AB": {
+    "AUROC": 0.193661971830986,
+    "AUPRC": 0.0030713557813042028,
+    "scores_path": "G:\\OutlierDecetion\\QMGOD\\examples\\result\\final_scores__6AB.npy"
+  },
+  "6ABC": {
+    "AUROC": 0.16971830985915493,
+    "AUPRC": 0.0030015766932653303,
+    "scores_path": "G:\\OutlierDecetion\\QMGOD\\examples\\result\\final_scores__6ABC.npy"
+  },
+  "6ABCD": {
+    "AUROC": 0.8051056338028169,
+    "AUPRC": 0.013852814540121043,
+    "scores_path": "G:\\OutlierDecetion\\QMGOD\\examples\\result\\final_scores__6ABCD.npy"
+  }
+}

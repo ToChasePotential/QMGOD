@@ -1,0 +1,44 @@
+x_key: X
+y_key: y
+feat_types_key: null
+max_cat_card: 50
+int_is_cat: true
+output_dir: G:\OutlierDecetion\QMGOD\examples\result
+delta_num: 0.8
+lambda_density: 0.5
+floor_rho: 0.01
+k_sigma: 15
+tau_sigma: 1.0
+q_exp: 2.0
+eta_cat: null
+max_layers: 8
+mcons_weight_gamma: 0.9
+mcons_weight_cap: 1.5
+js_bins: 12
+js_alpha: 1.0
+js_pow: 1.0
+k_prop: 0.7
+tau_m_pos: 0.6
+tau_m_neg: 0.6
+seed: 42
+device: null
+method:
+  train_batch_size: 256
+  eval_batch_size: 512
+devices: []
+load_num_workers: 0
+rbf_center_cap: 3000
+rbf_gamma: 0.0
+projection_dimension: 2048
+wfd_reg: 1e-6
+kfold: 5
+otm_knn_start: 1
+otm_max_rank: 2000
+min_select_ratio: 0.02
+otm_improve_eps: 0.001
+reliability_pow_p: 1.0
+reliability_pow_k: 1.0
+ot_epsilon: 0.1
+alpha_thresh: 0.98
+beta_thresh: 0.6
+real_anomaly_ratio: 0.023249575248144506
