@@ -1,0 +1,311 @@
+{
+  "source_chunks_i": [
+    {
+      "chunk_id": 0,
+      "text": "A prompt is built from the Global Union Graph and includes evidence pointers traceable via Description1.",
+      "meta": {
+        "span": [
+          0,
+          104
+        ]
+      }
+    }
+  ],
+  "E_i": [
+    {
+      "eid": "doc2_e1",
+      "name": "via",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e1",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e2",
+      "name": "built",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e2",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e3",
+      "name": "Union",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e3",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e4",
+      "name": "Graph",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e4",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e5",
+      "name": "prompt",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e5",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e6",
+      "name": "Global",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e6",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e7",
+      "name": "includes",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e7",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e8",
+      "name": "evidence",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e8",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e9",
+      "name": "pointers",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e9",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e10",
+      "name": "traceable",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e10",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "eid": "doc2_e11",
+      "name": "Description1",
+      "description": "entity extracted from document chunks (heuristic)",
+      "description1": "doc2|E|doc2_e11",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    }
+  ],
+  "R_i": [
+    {
+      "rid": "doc2_r1",
+      "head": "doc2_e5",
+      "tail": "doc2_e2",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r1",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r2",
+      "head": "doc2_e2",
+      "tail": "doc2_e6",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r2",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r3",
+      "head": "doc2_e6",
+      "tail": "doc2_e3",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r3",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r4",
+      "head": "doc2_e3",
+      "tail": "doc2_e4",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r4",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r5",
+      "head": "doc2_e4",
+      "tail": "doc2_e7",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r5",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r6",
+      "head": "doc2_e7",
+      "tail": "doc2_e8",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r6",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r7",
+      "head": "doc2_e8",
+      "tail": "doc2_e9",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r7",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r8",
+      "head": "doc2_e9",
+      "tail": "doc2_e10",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r8",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r9",
+      "head": "doc2_e10",
+      "tail": "doc2_e1",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r9",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    },
+    {
+      "rid": "doc2_r10",
+      "head": "doc2_e1",
+      "tail": "doc2_e11",
+      "relation": "co-occur",
+      "description": "co-occurrence within source chunk 0",
+      "description1": "doc2|R|doc2_r10",
+      "source_chunk_ids": [
+        0
+      ],
+      "meta": {
+        "mode": "heuristic",
+        "doc_id": "doc2"
+      }
+    }
+  ]
+}
